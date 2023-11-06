@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from 'antd'; 
-import TwoButton from './twoButton';
+import ThreeButton from './threeButton';
 import ButtonProperty from './ButtonProperty';
 import SpinProp  from './spinComp';
 
@@ -15,7 +15,7 @@ export default function App() {
       <Button type="text">Text Button</Button><br/>
       <Button type="link">Link Button </Button><br/>
 
-      <TwoButton/>  
+      <ThreeButton/>  
       <ButtonProperty/>
       <SpinProp/>
     </div> 
