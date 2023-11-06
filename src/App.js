@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react';
+import { Button } from 'antd'; 
+import TwoButton from './twoButton';
+import ButtonProperty from './ButtonProperty';
+import SpinProp  from './spinComp';
+
+export default function App() { 
+  return ( 
+    <div style={{ display: 'block', width: 700, padding: 30 }}> 
+      <h4>Ant Design Button Component</h4> 
+      <Button>Default Button</Button> <br /> 
+      <Button type="primary">Primary Button</Button> <br /> 
+      <Button type="dashed">Dashed Button</Button> <br /> 
+      <Button type="text">Text Button</Button><br/>
+      <Button type="link">Link Button </Button><br/>
+
+      <TwoButton/>  
+      <ButtonProperty/>
+      <SpinProp/>
+    </div> 
+  ); 
 }
 
-export default App;
