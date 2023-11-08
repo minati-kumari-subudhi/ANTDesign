@@ -1,7 +1,7 @@
 import React from 'react';
 //import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu} from 'antd';
-import Icon from "@ant-design/icons";
+import {Icon} from 'antd';
 
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
