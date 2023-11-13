@@ -33,9 +33,9 @@ function App() {
                   </span>
                 }
                 >
-                <Menu.ItemGroup key='Contact Us' title="Country 1">
-                    <Menu.Item key='Location1'>Location 1</Menu.Item>
-                    <Menu.Item key='Location2'>Location 2</Menu.Item>
+                <Menu.ItemGroup key='Employee List ' title="'Employee List">
+                    <Menu.Item key='Name1'>Location 1</Menu.Item>
+                    <Menu.Item key='Name2'>Location 2</Menu.Item>
                 </Menu.ItemGroup>
               </SubMenu>
               <SubMenu
@@ -47,8 +47,8 @@ function App() {
                 }
                 >
                 <Menu.ItemGroup key='About Us' title="Name">
-                    <Menu.Item key='Name1'>Locatio 1</Menu.Item>
-                    <Menu.Item key='Name2'>Locatio 2</Menu.Item>
+                    <Menu.Item key='Name1'>Name</Menu.Item>
+                    <Menu.Item key='Name2'>Comany name</Menu.Item>
                 </Menu.ItemGroup>
               </SubMenu>
           </Menu>
